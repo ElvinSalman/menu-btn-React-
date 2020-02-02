@@ -1,0 +1,33 @@
+
+.button{
+    display: none;
+    font-size: 35px;
+    color: green;
+}
+.menu-btn{
+    display: none;
+    height: auto ;
+    transition: all 1s;
+    width: 100% !important;
+    margin-left: -100%;
+    position: absolute;
+    z-index: 999;
+}
+.menu-btn.right{
+    transition: all 1s;
+    margin-left: 0;
+}
+@media screen and (max-width:767px){
+    .fori{
+        margin-top: 300px;
+        }
+    .button{
+        display: block;
+    }
+    .menu-btn{
+        display: block;
+    }
+    .menu{
+        display:none;
+    }
+}
